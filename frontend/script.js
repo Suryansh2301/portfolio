@@ -4,7 +4,6 @@ if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
 }
 
-
 const navLinks = document.querySelectorAll('.nav-links a');
 const trackedSections = document.querySelectorAll('#about, #skills, #work, #timeline');
 

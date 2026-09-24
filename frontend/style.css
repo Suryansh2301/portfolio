@@ -65,6 +65,7 @@ nav{
 @media (max-width:700px){ .nav-links{display:none;} }
 
 /* ---------- HERO ---------- */
+
 .hero{
   position:relative;
   padding:88px 28px 64px;
