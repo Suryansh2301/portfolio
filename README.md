@@ -16,7 +16,6 @@ portfolio/
 │   ├── package.json
 │   └── files/
 │       ├── Suryansh_Kumar_Pathak_Resume.pdf
-│       └── Suryansh_Kumar_Pathak_Resume.docx
 └── README.md
 ```
 
