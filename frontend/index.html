@@ -139,10 +139,14 @@
       </div>
 
       <div class="project-card">
-        <div class="project-head"><span class="project-title">Multi-Agent AI Workflow</span></div>
-        <p class="project-desc">A four-agent LangGraph pipeline — Planner, Researcher, Fact-Checker, and Writer — that decomposes a task, gathers and verifies information, and drafts a final answer. Built entirely on open-source Hugging Face models (Qwen2.5-7B, MiniLM, BART-MNLI), with a Streamlit front end, deployed via Docker and Kubernetes.</p>
+        <div class="project-head"><span class="project-title">Customer Support RAG Assistant</span></div>
+        <p class="project-desc">Built a customer-support question-answering assistant using a hybrid retrieval pipeline that combines BM25 sparse retrieval with
+ChromaDB vector search, followed by Cross-Encoder re-ranking for improved context selection.
+· Implemented the application with LangChain LCEL and Hugging Face BAAI/bge-m3 embeddings, with Groq openai/gpt-oss-20b used
+for response generation Evaluated the Customer Support RAG pipeline using Ragas across 4 metrics: Faithfulness (0.798), Answer Relevancy (0.632), Context Precision (0.783), and Context Recall (1.000). The evaluation showed strong retrieval coverage while identifying answer relevance and retrieval precision as key areas for further optimization.</p>
+        <span class="project-config">CHUNK_SIZE=500 · CHUNK_OVERLAP=75 · TOP_K_DENSE = 4 · TOP_K_SPARSE = 4 · TOP_N_RERANKED = 3</span>
         <div class="project-tags">
-          <span>LangGraph</span><span>Multi-Agent</span><span>Kubernetes</span><span>Docker</span><span>Streamlit</span>
+          <span>LangChain</span><span>Ragas</span><span>Streamlit</span>
         </div>
       </div>
 
@@ -230,8 +234,6 @@
         Resume (PDF)
       </a>
     </div>
-    <p class="resume-note">Prefer an editable copy? <a href="/api/resume/docx" download="Suryansh_Kumar_Pathak_Resume.docx">Download the .docx version</a> instead.</p>
-  </div>
 </section>
 
 </main>

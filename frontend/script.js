@@ -1,10 +1,10 @@
-// Footer year — keeps the copyright line current without a manual edit
+
 const yearEl = document.getElementById('year');
 if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
 }
 
-// Highlight the nav link for the section currently in view
+
 const navLinks = document.querySelectorAll('.nav-links a');
 const trackedSections = document.querySelectorAll('#about, #skills, #work, #timeline');
 
